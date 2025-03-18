@@ -1,0 +1,138 @@
+body{
+    scroll-padding-top: 400px;
+}
+.text-container{
+    position: relative;
+}
+.heading-text{
+    
+    position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 100% !important;
+   padding: 0px 10px 0px 10px;
+    
+}
+@media screen and (max-width:500px) {
+    .heading-text{
+        top: 30%;
+       
+    }
+    .heading-text .title2{
+        
+       font-size: 20px !important;
+    }
+}
+.call-for-papers{
+    overflow-x: auto;
+}
+.hover-item:hover a{
+
+    color: #CD1848 !important;
+
+}
+.custom-list{
+    list-style: none;
+}
+
+.custom-list li::before{
+    content:'\2021';
+    margin-right: 10px;
+    font-weight: bold;
+    color:#CD1848;
+    width: 12px;
+    height: 12px;
+}
+section {
+    /* min-height: 100vh; */
+    padding-top:40px;
+    padding-bottom: 40px;
+   
+  
+}
+
+#call-for-papers ul{
+line-height:40px;
+}
+/* #imp-dates{
+    background-color: #27c0b1;
+} */
+
+#img1{
+    max-height: 500px;
+height: auto;
+}
+.table-grey{
+    background-color: burlywood;
+}
+
+.bg-blur{
+   background-color: rgba(0, 0, 0, 0.432); 
+    backdrop-filter: blur(4px) ;
+    -webkit-backdrop-filter: blur( 4px );
+}
+.img-container{
+    object-fit: contain;
+   
+}
+.img-container img{
+    width: 100%;
+}
+.carousel-item img{
+max-height: 550px;
+height: auto;
+}
+.heading-center{
+     position: absolute;
+   top:60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 100% !important;
+   padding: 0px 10px 0px 10px;
+   /* Sai editings for colors */}
+.bg-head{
+    /* background-color:#0254a1;  */
+    background-color: #000000;
+  
+}
+.bg-foot{
+    background-color: #000000;
+     /* background-color:#03256C; */
+     /* #48426D; */
+}
+.bg-color1{
+    background-color: #fff6ea;
+}
+.bg-color2{
+    background-color: #F1AA9B;
+}
+.bg-color3{
+    background-color: #f84e4e;
+}
+.text-cust{
+    color:#f84e4e;
+}
+.bg-color4{
+    /* background-color: #f5e2cc; */
+    background-color: #ffe4c6;
+    
+}
+.text-info{
+    color:#377959 !important;
+}
+
+.text-pink{
+    color: #CD1848;
+}
+.accordion-button:not(.collapsed){
+    color:#377959 !important;
+    background-color:rgba(55, 121, 89, 0.226);
+}
+.border-info{
+    border-color: #CD1848 !important;
+}
+*::selection{
+    background-color: #0a2c1c;
+    color:white;
+}
