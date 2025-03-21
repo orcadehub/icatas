@@ -1,357 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="shortcut icon" href="./images/mbulogo.png" type="image/x-icon">
-  <title>MBU 2025</title>
-  <link rel="stylesheet" href="./VidyaNikethan.css">
-  <link rel="stylesheet" href="./speaker.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./images/mbulogo.png" type="image/x-icon" />
+    <title>MBU 2025</title>
+    <link rel="stylesheet" href="./VidyaNikethan.css" />
+    <link rel="stylesheet" href="./speaker.css" />
+  </head>
 
-<body class="bg-color1">
-
-  <div class="sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-head ">
-      <div class="container-fluid ">
-        <div class="row ">
-          <div class="container ">
-            <a href="index.html" class="navbar-brand d-flex align-items-center"> <img src="./images/mbulogo.png" width="100"
-                height="60" alt="home" class="rounded">
-              <h1 class=" text-white mx-3 " href="index.html"> ICATAS <strong class="" style="color:#F0C38E">2025</strong>
-              </h1>
+  <body class="bg-color1">
+    <div class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-head">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="container">
+              <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center"
+              >
+                <img
+                  src="./images/mbulogo.png"
+                  width="100"
+                  height="60"
+                  alt="home"
+                  class="rounded"
+                />
+                <h1 class="text-white mx-3" href="index.html">
+                  ICATAS <strong class="" style="color: #f0c38e">2025</strong>
+                </h1>
+              </a>
+            </div>
+          </div>
+          <button
+            class="d-block d-md-none btn btn-outline-dark ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div
+        class="collapse d-md-block text-white ms-auto bg-blur"
+        id="navbarNav"
+      >
+        <ul
+          class="d-flex justify-content-evenly align-items-center list-unstyled m-0 flex-column flex-md-row"
+        >
+          <!-- my3 edited -->
+          <li class="nav-item dropdown hover-item">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="about-dropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              About
             </a>
+            <ul
+              class="dropdown-menu dropdown-menu-dark"
+              aria-labelledby="about-dropdown"
+            >
+              <li>
+                <a class="dropdown-item" href="Institution.html"
+                  >About University</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="department.html">About SOC</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="hover-item">
+            <a href="callforpapers.html" class="text-white text-decoration-none"
+              >Call For Papers</a
+            >
+          </li>
+
+          <li class="hover-item">
+            <a href="submissions.html" class="text-white text-decoration-none"
+              >Submit Paper</a
+            >
+          </li>
+
+          <li class="hover-item">
+            <a href="registration.html" class="text-white text-decoration-none"
+              >Registration</a
+            >
+          </li>
+          <li class="hover-item">
+            <a href="team.html" class="text-white text-decoration-none"
+              >Conference Team</a
+            >
+          </li>
+          <li class="hover-item">
+            <a href="dates.html" class="text-white text-decoration-none"
+              >Important Dates</a
+            >
+          </li>
+          <li class="hover-item">
+            <a
+              href="keynotespeakers.html"
+              class="text-white text-decoration-none"
+              >Keynote Speakers</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- corousel  -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active text-container">
+          <img
+            src="./images/sustainability.jpg "
+            class="d-block w-100"
+            alt="..."
+          />
+
+          <div class="carousel-caption d-none d-md-block heading-text">
+            <!-- <a href="phase1.pdf"><button style="background-color: blue;color: white;height: 40px;border-radius: 20px;position: absolute;right: 3rem;top: -5rem;">Phase 1-Accepted List</button></a> -->
+            <!-- <a href="IC3T 2024 - Presentation Schedule.pdf" style="background-color: blue;color: white;height: 40px;border-radius: 20px;position: absolute;right: 15rem;top: -5rem;padding:0.4rem">Presentation Schedule</a>
+          <a href="IC3T 2024-Invitation-MB091224.pdf" style="background-color: blue;color: white;height: 40px;border-radius: 20px;position: absolute;right: 28rem;top: -5rem;padding:0.4rem">Invitation</a> -->
+            <!-- <img src="serb.png" alt="sperblogo" style="height: 80px;width: 150px;position: relative;top: -40%;left: -10%;"> -->
+            <h2 style="color: green; font-size: 160%; font-weight: bold">
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              3rd InterNational Conference on Advances in
+            </h2>
+
+            <h1 style="color: green; font-size: 170%; font-weight: bold">
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Technologies and Applications for
+              Sustainability
+            </h1>
+
+            <h3 style="color: green" font-size:140%;font-weight:bold>
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              (ICATAS 2025)
+            </h3>
+
+            <h5 style="color: green" font-size:140%;font-weight:bold>
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              Theme of the Conference: Emerging Trends and AI-Driven Innovations
+              <br />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              in Science, Technology, Engineering, and Management
+            </h5>
+
+            <h3 style="color: green; font-size: 120%; font-weight: bold">
+              <br />
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              Organized by
+
+              <br />
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              Department of CSE(AI&ML), School of Computing <br />
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              Mohan Babu University, Tirupati, Andhra Pradesh, India
+
+              <br />
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              Conference Dates:19-21 November 2025
+            </h3>
           </div>
         </div>
-        <button class="d-block d-md-none btn btn-outline-dark ms-auto " type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
-    <div class="collapse d-md-block  text-white ms-auto  bg-blur" id="navbarNav">
-      <ul class="d-flex justify-content-evenly align-items-center list-unstyled m-0 flex-column flex-md-row">
-        <!-- my3 edited -->
-        <li class="nav-item dropdown hover-item">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="about-dropdown" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            About
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="about-dropdown">
-            <li><a class="dropdown-item" href="Institution.html">About University</a></li>
-            <li><a class="dropdown-item" href="department.html">About SOC</a></li>
-          </ul>
-        </li>
-
-        <li class="hover-item">
-          <a href="callforpapers.html" class="text-white text-decoration-none">Call For Papers</a>
-        </li>
-
-        <li class="hover-item">
-          <a href="submissions.html" class="text-white text-decoration-none">Submit Paper</a>
-        </li>
-
-       
-        <li class="hover-item">
-          <a href="registration.html" class="text-white text-decoration-none">Registration</a>
-
-        </li>
-        <li class="hover-item">
-          <a href="team.html" class="text-white text-decoration-none">Conference Team</a>
-
-        </li>
-        <li class="hover-item">
-          <a href="dates.html" class="text-white text-decoration-none">Important Dates</a>
-
-        </li>
-        <li class=hover-item>
-          <a href="keynotespeakers.html" class="text-white text-decoration-none">Keynote Speakers</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-
-  
-
-  <!-- corousel  -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active text-container">
-        <img src="./images/sustainability.jpg " class="d-block w-100" alt="...">
-       
-        <div class="carousel-caption d-none d-md-block heading-text ">
-          <!-- <a href="phase1.pdf"><button style="background-color: blue;color: white;height: 40px;border-radius: 20px;position: absolute;right: 3rem;top: -5rem;">Phase 1-Accepted List</button></a> -->
-          <!-- <a href="IC3T 2024 - Presentation Schedule.pdf" style="background-color: blue;color: white;height: 40px;border-radius: 20px;position: absolute;right: 15rem;top: -5rem;padding:0.4rem">Presentation Schedule</a>
-          <a href="IC3T 2024-Invitation-MB091224.pdf" style="background-color: blue;color: white;height: 40px;border-radius: 20px;position: absolute;right: 28rem;top: -5rem;padding:0.4rem">Invitation</a> -->
-          <!-- <img src="serb.png" alt="sperblogo" style="height: 80px;width: 150px;position: relative;top: -40%;left: -10%;"> -->
-          <h2 style="color:green;font-size:160%;font-weight:bold;">  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-
-            3rd InterNational Conference on Advances in 
-             
-             </h2>
-
-          <h1 style="color:green;font-size:170%;font-weight:bold;">   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
-Technologies and Applications for Sustainability </h1>
-
-          <h3 style="color:green;" font-size:140%;font-weight:bold>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
- (ICATAS 2025)</h3>
-
- <h5 style="color:green;" font-size:140%;font-weight:bold>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  Theme of the Conference: Emerging Trends and 
- AI-Driven Innovations <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp in Science, 
-  Technology, Engineering, and Management</h5>
-
-<h3 style="color:green; font-size:120%;font-weight:bold;">
-<br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-Organized by
-
-<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
-
-Department of CSE(AI&ML), School of Computing
-<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
-
-Mohan Babu University, Tirupati, Andhra Pradesh, India 
-
-<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-Conference Dates:25th April 2025</h3>
-        </div>      
       </div>
     </div>
-  </div>
 
- 
-  <!-- about conf -->
-  <section class="about-conf container-fluid p-5    bg-white shadow" id='about-conf'>
-    <div class="text-center border-bottom border-info border-3 ">
-      <h2 class="text-pink">About Conference</h2>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-md text-center img-container " data-aos="fade-up" data-aos-delay='200'>
-        <img #img1 src="./images/institute.jpeg" width="400">
+    <!-- about conf -->
+    <section
+      class="about-conf container-fluid p-5 bg-white shadow"
+      id="about-conf"
+    >
+      <div class="text-center border-bottom border-info border-3">
+        <h2 class="text-pink">About Conference</h2>
       </div>
-      <div class="col-md" data-aos="fade-left">
-        <p class="align-self-end mt-3" align="justify">International Conference on Advances in Technologies and Applications for Sustainability (ICATAS - 2025) is intended to provide a premier interdisciplinary forum for researchers, engineers and academicians to present and discuss the most recent trends, innovations, concerns, technologies, practical challenges and applications and the solutions adopted for Sustainable development. The conference also aims to provide an enduring techno-platform for mutually sharing the advanced and innovative technologies for the scientists, scholars, engineers and students from the universities all around the world and the industry to present ongoing research activities, focused on solutions to achieve the Sustainable Development Goals (SDGs) and hence to foster collaborations among stakeholders and researchers from distinct universities, national laboratories, government funding bodies and the industry.
+      <br />
+      <div class="row">
+        <div
+          class="col-md text-center img-container"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <img #img1 src="./images/institute.jpeg" width="400" />
+        </div>
+        <div class="col-md" data-aos="fade-left">
+          <p class="align-self-end mt-3" align="justify">
+            International Conference on Advances in Technologies and
+            Applications for Sustainability (ICATAS - 2025) is intended to
+            provide a premier interdisciplinary forum for researchers, engineers
+            and academicians to present and discuss the most recent trends,
+            innovations, concerns, technologies, practical challenges and
+            applications and the solutions adopted for Sustainable development.
+            The conference also aims to provide an enduring techno-platform for
+            mutually sharing the advanced and innovative technologies for the
+            scientists, scholars, engineers and students from the universities
+            all around the world and the industry to present ongoing research
+            activities, focused on solutions to achieve the Sustainable
+            Development Goals (SDGs) and hence to foster collaborations among
+            stakeholders and researchers from distinct universities, national
+            laboratories, government funding bodies and the industry.
           </p>
-        <p class="text-end">
-          <!--             <a class="btn btn-lg btn-info" href="about.html?#aboutconf">Read More...</a>-->
-          <!-- <a class="btn btn-lg btn-outline-info" href="conference.html">Read More...</a>
+          <p class="text-end">
+            <!--             <a class="btn btn-lg btn-info" href="about.html?#aboutconf">Read More...</a>-->
+            <!-- <a class="btn btn-lg btn-outline-info" href="conference.html">Read More...</a>
           <br>
           <p><img src="./images/springer.jpg" alt="spinger image" style="margin-left: 5px;"></p>
            <p><a href="https://link.springer.com/book/10.1007/978-981-99-9704-6" target="_self">Click here </a> for IC3T 2023 conference proceedings volume 1</p>
            <p><a href="https://link.springer.com/book/10.1007/978-981-99-9707-7">Click here </a> for IC3T 2023 conference proceedings volume 2</p>
         </p> -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Previous proceedings -->
+
+    <div
+      style="
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: auto;
+      "
+    >
+      <h2
+        style="
+          color: #4a148c;
+          text-align: center;
+          font-family: Arial, sans-serif;
+        "
+      >
+        Publication of Previous Proceedings
+      </h2>
+
+      <div
+        style="
+          margin-top: 15px;
+          padding: 10px;
+          background: white;
+          border-radius: 8px;
+        "
+      >
+        <h3 style="color: #333; font-size: 18px">1st ICATAS-2023</h3>
+        <p style="color: #555; font-size: 16px; line-height: 1.6">
+          In association with <strong>MIR Labs, USA</strong> with Scopus Indexed
+          Springer LNNS series.
+        </p>
+      </div>
+
+      <div
+        style="
+          margin-top: 15px;
+          padding: 10px;
+          background: white;
+          border-radius: 8px;
+        "
+      >
+        <h3 style="color: #333; font-size: 18px">2nd ICATAS-2024</h3>
+        <p style="color: #555; font-size: 16px; line-height: 1.6">
+          In association with
+          <strong>UPM-University Putra Malaysia, Malaysia</strong> with Scopus
+          Indexed <strong>Pertanika Proceedings</strong> and
+          <strong>Pertanika Journal of Science & Technology</strong>.
+        </p>
       </div>
     </div>
 
-  </section>
-
-
-
-<!-- Previous proceedings -->
-
-<div style="padding: 20px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 800px; margin: auto;">
-  <h2 style="color: #4A148C; text-align: center; font-family: Arial, sans-serif;">Publication of Previous Proceedings</h2>
-  
-  <div style="margin-top: 15px; padding: 10px; background: white; border-radius: 8px;">
-    <h3 style="color: #333; font-size: 18px;">1st ICATAS-2023</h3>
-    <p style="color: #555; font-size: 16px; line-height: 1.6;">
-      In association with <strong>MIR Labs, USA</strong> with Scopus Indexed Springer LNNS series.
-    </p>
-  </div>
-
-  <div style="margin-top: 15px; padding: 10px; background: white; border-radius: 8px;">
-    <h3 style="color: #333; font-size: 18px;">2nd ICATAS-2024</h3>
-    <p style="color: #555; font-size: 16px; line-height: 1.6;">
-      In association with <strong>UPM-University Putra Malaysia, Malaysia</strong> with Scopus Indexed 
-      <strong>Pertanika Proceedings</strong> and <strong>Pertanika Journal of Science & Technology</strong>.
-    </p>
-  </div>
-</div>
-
- 
-
-
-
-  <!-- welcome -->
-  <div class="container-fluid text-center p-5 bg-color2">
-    <h2 id='welcome' class="text-white">Welcome to ICATAS 2025</h2>
-
-  </div>
-  <!-- contact us -->
-  <section id="contact-us" class="container text-center bg-white">
-    <div class="text-center border-bottom border-3 border-info">
-      <h2 class="text-pink">Contact <span class="text-info">Us</span></h2>
+    <!-- welcome -->
+    <div class="container-fluid text-center p-5 bg-color2">
+      <h2 id="welcome" class="text-white">Welcome to ICATAS 2025</h2>
     </div>
-    <div class="row mb-5">
-      <div class="col" data-aos="fade-up">
-
-        <div class="icon-container mt-5 mb-3 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#377959" class="bi bi-telephone-fill"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-          </svg>
-        </div>
-        <div class="container">
-          <h4>
-            Contact
-          </h4>
-          <div>
-
-            <span class="lead">
-              <strong>K.Reddy Madhavi,</strong> </span><br>
-            <span>Phone number: +91 9985798626</span><br>
-            <!-- <span class="lead">
+    <!-- contact us -->
+    <section id="contact-us" class="container text-center bg-white">
+      <div class="text-center border-bottom border-3 border-info">
+        <h2 class="text-pink">Contact <span class="text-info">Us</span></h2>
+      </div>
+      <div class="row mb-5">
+        <div class="col" data-aos="fade-up">
+          <div class="icon-container mt-5 mb-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="#377959"
+              class="bi bi-telephone-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+              />
+            </svg>
+          </div>
+          <div class="container">
+            <h4>Contact</h4>
+            <div>
+              <span class="lead"> <strong>K.Reddy Madhavi,</strong> </span
+              ><br />
+              <span>Phone number: +91 9985798626</span><br />
+              <!-- <span class="lead">
               <strong>Dr. K.Padmaja</strong> </span><br>
             <span>Phone number: +91 8790510401</span><br> -->
-          </div>
-
-        </div>
-
-      </div>
-      <div class="col" data-aos="fade-up">
-
-        <div class="icon-container mt-5 mb-3 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#377959" class="bi bi-chat-text-fill"
-            viewBox="0 0 16 16">
-            <path
-              d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
-          </svg>
-        </div>
-        <div class="container">
-          <h4>
-            Mail To
-          </h4>
-          <div>
-
-            <span class="lead">
-              icatas2025@gmail.com</span>
-          </div>
-          <div>
-            <span> MBU Website:
-              <strong>www.mbu.asia</strong>
-            </span>
-          </div>
-        </div>
-
-      </div>
-      <div class="col " data-aos="fade-up">
-        <div class="icon-container mt-5 mb-3 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#377959" class="bi bi-geo-alt-fill"
-            viewBox="0 0 16 16">
-            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-          </svg>
-        </div>
-        <div class="container">
-          <h4>
-            Location
-          </h4>
-          <div>
-            <p>The Institution is located 16 KM from the temple town of Tirupati on Tirupati – Madanapalle National Highway 205.</p>
-            <span class="lead">
-              <strong>MBU</strong> Tirupati </span>
-          </div>
-          <div>
-            <span> AP, India
-              <strong>517102</strong>
-            </span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <br>
-    <br>
-    <!-- map row -->
-    <div id="venue" class="container text-center bg-light ">
-      <div class="row mt-5">
-        <div class="col-md bg-light">
-          <div class="mapouter ">
-            <div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.788469126022!2d79.28729231405019!3d13.623306003930361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb2b511cbefcaf3%3A0x4eb0b29e1d33b522!2sMohan%20Babu%20University!5e1!3m2!1sen!2sus!4v1681133903577!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <style>
-              .mapouter {
-                position: relative;
-                text-align: right;
-                width: 100%;
-                height: 400px;
-              }
-
-              .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                width: 100%;
-                height: 400px;
-              }
-
-              .gmap_iframe {
-                height: 400px !important;
-              }
-            </style>
           </div>
-
         </div>
-        <div class="col-md d-flex flex-column justify-content-center">
-          <h2 class="text-info ">Venue</h2>
+        <div class="col" data-aos="fade-up">
+          <div class="icon-container mt-5 mb-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="#377959"
+              class="bi bi-chat-text-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z"
+              />
+            </svg>
+          </div>
+          <div class="container">
+            <h4>Mail To</h4>
+            <div>
+              <span class="lead"> icatas2025@gmail.com</span>
+            </div>
+            <div>
+              <span>
+                MBU Website:
+                <strong>www.mbu.asia</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up">
+          <div class="icon-container mt-5 mb-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="#377959"
+              class="bi bi-geo-alt-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+              />
+            </svg>
+          </div>
+          <div class="container">
+            <h4>Location</h4>
+            <div>
+              <p>
+                The Institution is located 16 KM from the temple town of
+                Tirupati on Tirupati – Madanapalle National Highway 205.
+              </p>
+              <span class="lead"> <strong>MBU</strong> Tirupati </span>
+            </div>
+            <div>
+              <span>
+                AP, India
+                <strong>517102</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- map row -->
+      <div id="venue" class="container text-center bg-light">
+        <div class="row mt-5">
+          <div class="col-md bg-light">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.788469126022!2d79.28729231405019!3d13.623306003930361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb2b511cbefcaf3%3A0x4eb0b29e1d33b522!2sMohan%20Babu%20University!5e1!3m2!1sen!2sus!4v1681133903577!5m2!1sen!2sus"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 100%;
+                  height: 400px;
+                }
+
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 100%;
+                  height: 400px;
+                }
+
+                .gmap_iframe {
+                  height: 400px !important;
+                }
+              </style>
+            </div>
+          </div>
+          <div class="col-md d-flex flex-column justify-content-center">
+            <h2 class="text-info">Venue</h2>
+            <div>
+              <h4 class="text-pink">MOHAN BABU UNIVERSITY</h4>
+              <p>Sree Sainath Nagar,Tirupati-517 102</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- info -->
+
+    <div class="container-fluid text-white text-center p-5 bg-foot" id="info">
+      <div class="row">
+        <div class="col">
+          <h4>INFORMATION</h4>
+          <p class="lead">
+            Feel free to Mail us for any Conference related Queries?
+          </p>
+
           <div>
-            <h4 class="text-pink">MOHAN BABU UNIVERSITY </h4>
-            <p> Sree Sainath Nagar,Tirupati-517 102</p>
+            <span style="color: #f0c38e">Mail to :</span>
+            <span class="lead">icatas2025@gmail.com</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-
-  <!-- info -->
-
-  <div class="container-fluid  text-white text-center p-5 bg-foot" id='info'>
-    <div class="row">
-      
-
-      <div class="col">
-        <h4>INFORMATION</h4>
-        <p class="lead">Feel free to Mail us for any Conference related Queries?</p>
-
-        <div>
-          <span style="color:#F0C38E">Mail to :</span>
-          <span class="lead">icatas2025@gmail.com</span>
-        </div>
-      </div>
+    <!-- footer -->
+    <div class="container-fluid p-4 text-center bg-foot bg-light">
+      <span>
+        &copy; copyright <strong>ICATAS 2025</strong>, All Rights Reserved</span
+      >
+      <p class="me-5 mt-4" style="font-size: 18px">
+        Developed By
+        <a
+          href="https://www.orcadehub.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="
+            color: #6a0dad;
+            font-weight: bold;
+            font-size: 30px;
+            text-decoration: none;
+          "
+        >
+          <img
+            src="./images/log.png"
+            alt="orcade"
+            height="50"
+            style="margin: 0 0.3rem 10px 0"
+          />
+          ORCADEHUB
+        </a>
+      </p>
     </div>
-  </div>
-  <!-- footer -->
-  <div class="container-fluid  p-4 text-center bg-foot bg-light">
-    <span> &copy; copyright <strong>ICATAS 2025</strong>, All Rights Reserved</span>
-    <p class="me-5 mt-4" style="font-size: 18px;">
-      Developed By
-      <a href="https://www.orcadehub.com/" target="_blank" rel="noopener noreferrer" style="color: #6a0dad;font-weight: bold;font-size: 30px;text-decoration: none;">
-        <img src="./images/log.png" alt="orcade" height="50" style="margin:0 0.3rem 10px 0;"/> ORCADEHUB
-      </a>
-    </p> 
-  </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
 
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="./vidyanikethan_scrippt.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./vidyanikethan_scrippt.js"></script>
 </html>
