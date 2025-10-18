@@ -1,0 +1,23 @@
+.column {
+    float: left;
+    width:28%;
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    
+  }
+  .row:after {
+    padding: 10px;
+    margin: -20px;
+    border: -20px;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width:600px) {
+    .column{
+      width:100%;
+    }
+    
+  }
