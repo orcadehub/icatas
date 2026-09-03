@@ -194,6 +194,11 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     border-top: 4px solid var(--color-navy) !important;
 }
 
+.bg-navy {
+    background-color: var(--color-navy) !important;
+    color: #ffffff !important;
+}
+
 /* Timeline Components */
 .timeline-card {
     position: relative;
