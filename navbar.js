@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <a href="index.html" class="navbar-brand d-flex align-items-center me-3">
             <img src="./images/sse-logo-D5ZBduKC.svg" height="75" alt="SSE Logo" style="max-height: 75px;" />
             <span class="ms-3 text-white fs-4 fw-bold">
-              ICATAS <span style="color: var(--color-gold);">2026</span>
+              3rd ICATAS <span style="color: var(--color-gold);">2026</span>
             </span>
           </a>
 
@@ -70,10 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="col-lg-4">
             <div class="d-flex align-items-center mb-3">
               <img src="./images/sse-logo-D5ZBduKC.svg" height="50" alt="SSE Logo" class="me-2" />
-              <h4 class="text-white mb-0 fw-bold">ICATAS <span style="color: var(--color-gold);">2026</span></h4>
+              <h4 class="text-white mb-0 fw-bold">3rd ICATAS <span style="color: var(--color-gold);">2026</span></h4>
             </div>
-            <p class="small text-slate-400 mb-3">
-              3rd International Conference on Advances in Technologies and Applications for Sustainability, organized by Sanskrithi School of Engineering, Puttaparthi.
+            <p class="text-light opacity-75 small mb-4">
+              3rd International Conference on Advances in Technologies and Applications for Sustainability organized by Sanskrithi School of Engineering, Puttaparthi, AP, India.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <div class="footer-bottom-bar text-center">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-          <span>&copy; copyright <strong>ICATAS 2026</strong>, All Rights Reserved</span>
+          <span>&copy; copyright <strong>3rd ICATAS 2026</strong>, All Rights Reserved</span>
           <div>
             <span class="me-2">Developed By</span>
             <a href="https://www.orcadehub.com/" target="_blank" rel="noopener noreferrer" class="fw-bold text-warning text-decoration-none">
