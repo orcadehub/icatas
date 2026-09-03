@@ -2,231 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=
-    , initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration | SSE ICATAS 2026</title>
+
+    <link rel="shortcut icon" type="image/svg+xml" href="./images/sse-logo-D5ZBduKC.svg" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <title>Registration</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="./VidyaNikethan.css" />
   </head>
+  <body>
+    <!-- Global Header Navbar Container -->
+    <div id="global-header" data-active="registration"></div>
 
-  <body class="bg-color1">
-
-
-    <div class="sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-head ">
-        <div class="container-fluid ">
-          <div class="row ">
-            <div class="container ">
-              <a href="index.html" class="navbar-brand d-flex align-items-center"> <img src="./images/mbulogo.png" width="100"
-                  height="60" alt="home" class="rounded">
-                <h1 class=" text-white mx-3 " href="index.html"> ICATAS <strong class="" style="color:#F0C38E">2025</strong>
-                </h1>
-              </a>
-            </div>
-          </div>
-          <button class="d-block d-md-none btn btn-outline-dark ms-auto " type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav>
-      <div class="collapse d-md-block  text-white ms-auto  bg-blur" id="navbarNav">
-        <ul class="d-flex justify-content-evenly align-items-center list-unstyled m-0 flex-column flex-md-row">
-          <!-- my3 edited -->
-          <li class="nav-item dropdown hover-item">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="about-dropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              About
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="about-dropdown">
-              <li><a class="dropdown-item" href="Institution.html">About University</a></li>
-              <li><a class="dropdown-item" href="department.html">About SOC</a></li>
-            </ul>
-          </li>
-  
-          <li class="hover-item">
-            <a href="callforpapers.html" class="text-white text-decoration-none">Call For Papers</a>
-          </li>
-  
-          <li class="hover-item">
-            <a href="submissions.html" class="text-white text-decoration-none">Submit Paper</a>
-          </li>
-  
-         
-          <li class="hover-item">
-            <a href="registration.html" class="text-white text-decoration-none">Registration</a>
-  
-          </li>
-          <li class="hover-item">
-              <a href="team.html" class="text-white text-decoration-none">Conference Team</a>
-    
-            </li>
-            <li class="hover-item">
-              <a href="dates.html" class="text-white text-decoration-none">Important Dates</a>
-    
-            </li>
-          <li class=hover-item>
-            <a href="keynotespeakers.html" class="text-white text-decoration-none">Keynote Speakers</a>
-          </li>
-        </ul>
-  
-      </div>
-    </div>
-    <!-- about registrations -->
-    <section
-      class="about-conf container my-3 shadow-lg bg-white"
-      id="about-conf"
-    >
-      <div class="text-center border-bottom border-info border-3">
-        <h2><span class="text-info">Registrations</span></h2>
-      </div>
-      <!-- <div style="text-align: center;font-size: 20px;">
-          <p>Click Below for</p>  <a href="RegistrationForm.pdf">Registration Form</a>
-        </div> -->
+    <!-- Page Banner -->
+    <section class="page-hero-banner text-center">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <table class="table-grey mt-5 table">
-              <thead class="table-head bg-color2">
-                <tr>
-                  <th>
-                    <span class="h4"> S.No </span>
-                  </th>
-                  <th>
-                    <span class="h4"> Category </span>
-                  </th>
-                  <th>
-                    <span class="h4"> Regular Fee </span>
-                  </th>
-                  <th>
-                    <span class="h4"> Late fee </span>
-                  </th>
-                </tr>
-              </thead>
-              <table border="1" cellspacing="0" cellpadding="8" style="width: 100%; border-collapse: collapse; text-align: center;">
-                <thead style="background-color: #4A148C; color: white;">
-                  <tr>
-                    <th rowspan="2">Category</th>
-                    <th colspan="2">For Indian Authors & Co-Authors and Delegates (INR)</th>
-                    <th colspan="2">For Foreign Authors & Co-Authors and Delegates (USD)</th>
-                  </tr>
-                  <tr>
-                    <th>IEEE Member</th>
-                    <th>General</th>
-                    <th>IEEE Member</th>
-                    <th>General</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Students</td>
-                    <td>₹ 6,500</td>
-                    <td>₹ 8,000</td>
-                    <td>$ 250</td>
-                    <td>$ 300</td>
-                  </tr>
-                  <tr>
-                    <td>Faculty & Research Scholars</td>
-                    <td>₹ 7,500</td>
-                    <td>₹ 9,000</td>
-                    <td>$ 300</td>
-                    <td>$ 350</td>
-                  </tr>
-                  <tr>
-                    <td>Industry</td>
-                    <td>₹ 8,000</td>
-                    <td>₹ 10,000</td>
-                    <td>$ 400</td>
-                    <td>$ 450</td>
-                  </tr>
-                  <tr>
-                    <td>Attendee only</td>
-                    <td>₹ 1,000</td>
-                    <td>₹ 2,000</td>
-                    <td>$ 100</td>
-                    <td>$ 150</td>
-                  </tr>
-                  <tr>
-                    <td>Online Mode</td>
-                    <td>₹ 6,000</td>
-                    <td>₹ 7,000</td>
-                    <td>$ 250</td>
-                    <td>$ 300</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <br><br>
-              
-          
-              
-            </table>
-          </div>
-        </div>
-      </div>
-      <div style="text-align: center">
-        <img src="/bank.jpg" alt="bank details" width="400" />
+        <h1 class="text-white">Registration Fees & Guidelines</h1>
+        <p class="text-warning lead mb-0">ICATAS 2026 Fee Structure & Payment Information</p>
       </div>
     </section>
 
-    <!-- info -->
+    <!-- Main Registration Section -->
+    <section class="py-5">
+      <div class="container">
+        <!-- Fees Card -->
+        <div class="card card-modern p-4 p-md-5 mb-5">
+          <h3 class="fw-bold text-dark mb-4 text-center">Conference Registration Fee Structure</h3>
 
-    <div class="container-fluid text-white text-center p-5 bg-foot" id="info">
-      <div class="row">
-        <div class="col">
-          <h4>INFORMATION</h4>
-          <p class="lead">
-            Feel free to Mail us for any Conference related Queries?
-          </p>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle border">
+              <thead class="table-dark">
+                <tr>
+                  <th scope="col" style="width: 50%;">Category</th>
+                  <th scope="col" class="text-center">Regular Fee</th>
+                  <th scope="col" class="text-center">Late Fee</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong class="text-dark">Author's (Indian Origin)</strong>
+                    <span class="badge bg-secondary ms-2">Up to 7 Pages</span>
+                  </td>
+                  <td class="text-center fw-bold text-success">₹ 6,000</td>
+                  <td class="text-center text-muted">₹ 7,000</td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong class="text-dark">Author's (Foreign Origin)</strong>
+                    <span class="badge bg-secondary ms-2">Up to 7 Pages</span>
+                  </td>
+                  <td class="text-center fw-bold text-success">$ 100</td>
+                  <td class="text-center text-muted">$ 150</td>
+                </tr>
+                <tr>
+                  <td><strong class="text-dark">Listeners / Attendees</strong></td>
+                  <td class="text-center fw-bold text-success">₹ 1,000</td>
+                  <td class="text-center text-muted">₹ 1,500</td>
+                </tr>
+                <tr>
+                  <td><strong class="text-dark">Extra Page (Indian Origin)</strong></td>
+                  <td class="text-center fw-bold text-success">₹ 1,000</td>
+                  <td class="text-center text-muted">₹ 1,500</td>
+                </tr>
+                <tr>
+                  <td><strong class="text-dark">Extra Page (Foreign Origin)</strong></td>
+                  <td class="text-center fw-bold text-success">$ 25</td>
+                  <td class="text-center text-muted">$ 20</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
-          <div>
-            <span style="color: #f0c38e">Mail to :</span>
-            <span class="lead">icatas2025@gmail.com</span>
+        <!-- Bank Details Section -->
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="card card-modern p-4 h-100 card-accent-gold">
+              <h4 class="fw-bold text-dark mb-3"><i class="bi bi-bank2 text-warning me-2"></i>Bank Account Details</h4>
+              <p class="text-secondary small mb-3">
+                Registration fee payments should be transferred via NEFT / RTGS / Wire Transfer to the following official bank account:
+              </p>
+              <div class="p-3 bg-light rounded-3 border">
+                <p class="mb-2 text-dark"><strong>Account Name:</strong> SANSKRITHI SCHOOL OF ENGINEERING</p>
+                <p class="mb-2 text-dark"><strong>Account Number:</strong> 123456789012 (Dummy Account)</p>
+                <p class="mb-2 text-dark"><strong>Bank Name:</strong> State Bank of India</p>
+                <p class="mb-2 text-dark"><strong>IFSC Code:</strong> SBIN0012345 (Dummy IFSC)</p>
+                <p class="mb-0 text-dark"><strong>Branch:</strong> Puttaparthi Main Branch, AP</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card card-modern p-4 h-100 card-accent-emerald">
+              <h4 class="fw-bold text-dark mb-3"><i class="bi bi-check2-circle text-success me-2"></i>Payment Confirmation</h4>
+              <p class="text-secondary small mb-3">
+                Once the payment transfer is completed, please email your transaction proof to confirm your registration:
+              </p>
+              <div class="p-3 bg-light rounded-3 border mb-3">
+                <p class="mb-1 text-dark"><strong>Email Receipt To:</strong> <a href="mailto:icatas.sse2026@gmail.com" class="text-success fw-bold text-decoration-none">icatas.sse2026@gmail.com</a></p>
+                <p class="mb-0 text-muted small"><strong>Include in Email:</strong> Paper ID, Author Name, Contact Number, Transaction Ref No., and Payment Screenshot.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- footer -->
-    <div class="container-fluid p-4 text-center bg-foot bg-light">
-      <span>
-        &copy; copyright <strong>ICATAS 2025</strong>, All Rights Reserved</span
-      >
-      <p class="me-5 mt-4" style="font-size: 18px">
-        Developed By
-        <a
-          href="https://www.orcadehub.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style="
-            color: #6a0dad;
-            font-weight: bold;
-            font-size: 30px;
-            text-decoration: none;
-          "
-        >
-          <img
-            src="./images/log.png"
-            alt="orcade"
-            height="50"
-            style="margin: 0 0.3rem 10px 0"
-          />
-          ORCADEHUB
-        </a>
-      </p>
-    </div>
+    </section>
+
+    <!-- Global Footer Container -->
+    <div id="global-footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./navbar.js"></script>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"
-  ></script>
 </html>
