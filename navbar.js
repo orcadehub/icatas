@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <nav class="navbar navbar-expand-lg navbar-dark navbar-glass py-2">
         <div class="container-fluid px-3 px-md-4">
           <a href="index.html" class="navbar-brand d-flex align-items-center me-3">
-            <img src="./images/sse-logo-D5ZBduKC.svg" height="60" alt="SSE Logo" />
+            <img src="./images/sse-logo-D5ZBduKC.svg" height="75" alt="SSE Logo" style="max-height: 75px;" />
             <span class="ms-3 text-white fs-4 fw-bold">
               ICATAS <span style="color: var(--color-gold);">2026</span>
             </span>
