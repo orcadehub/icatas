@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
       <nav class="navbar navbar-expand-lg navbar-dark navbar-glass py-2">
         <div class="container-fluid px-3 px-md-4">
           <a href="index.html" class="navbar-brand d-flex align-items-center me-3">
-            <img src="./images/sse-logo-D5ZBduKC.svg" height="75" alt="SSE Logo" style="max-height: 75px;" />
-            <span class="ms-3 text-white fs-4 fw-bold">
+            <img src="./images/sse-logo-D5ZBduKC.svg" height="55" alt="SSE Logo" style="max-height: 55px;" />
+            <span class="ms-2 me-3 text-white fs-4 fw-bold">
               3rd ICATAS <span style="color: var(--color-gold);">2026</span>
             </span>
+            <img src="./images/LEO.png" height="48" alt="Leosphere Logo" class="bg-white p-1 rounded-2 shadow-sm" style="max-height: 48px; object-fit: contain;" />
           </a>
 
           <button
